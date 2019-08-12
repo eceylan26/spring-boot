@@ -23,7 +23,7 @@ public class BeanScopeDemoApp {
 
 		System.out.println("Memory location of theCoach ---> " + theCoach);
 		
-		System.out.println("Memory location of alphaCoach ---> " + theCoach);
+		System.out.println("Memory location of alphaCoach ---> " + alphaCoach);
 		
 		context.close();
 	}
