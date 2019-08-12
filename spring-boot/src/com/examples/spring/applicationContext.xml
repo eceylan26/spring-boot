@@ -20,6 +20,13 @@
 		
 		<!-- set up constructor injection -->
 		<constructor-arg ref="myFortune" />
+	</bean>
+	
+	<bean id="myCricketCoach"
+		class="com.examples.spring.CricketCoach">
+		
+		<!-- set up setter injection -->	
+		<property name="fortuneService" ref="myFortune"/>
 		
 	</bean>
 	
